@@ -1,6 +1,6 @@
 {
   "name": "key-mapper",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Deeply map object keys",
   "main": "dist/index.js",
   "dependencies": {
