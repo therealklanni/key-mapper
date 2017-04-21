@@ -1,3 +1,9 @@
+[![Travis](https://img.shields.io/travis/therealklanni/key-mapper.svg)](https://travis-ci.org/therealklanni/key-mapper)
+[![npm](https://img.shields.io/npm/v/key-mapper.svg)](https://www.npmjs.com/package/key-mapper)
+[![prettier](https://img.shields.io/badge/style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Beerpay](https://img.shields.io/beerpay/hashdog/scrapfy-chrome-extension.svg)](https://beerpay.io/therealklanni/key-mapper)
+
+
 # key-mapper
 
 > Tiny utility for deeply mapping object keys
