@@ -1,6 +1,6 @@
 {
   "name": "key-mapper",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Deeply map object keys",
   "main": "dist/index.js",
   "dependencies": {
@@ -24,7 +24,6 @@
     "babel": "inherit"
   },
   "lint-staged": {
-    "test.js": ["ava"],
     "*.js": [
       "prettier --single-quote --write",
       "git add"
