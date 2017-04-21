@@ -1,0 +1,48 @@
+{
+  "name": "key-mapper",
+  "version": "1.0.0",
+  "description": "Deeply map object keys",
+  "main": "dist/index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "husky": "^0.13.3",
+    "lint-staged": "^3.4.0",
+    "prettier": "^1.2.2"
+  },
+  "scripts": {
+    "build": "babel index.js -o dist/index.js",
+    "precommit": "lint-staged",
+    "test": "ava",
+    "watch": "babel index.js -o dist/index.js --watch"
+  },
+  "ava": {
+    "babel": "inherit"
+  },
+  "lint-staged": {
+    "test.js": ["ava"],
+    "*.js": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealklanni/key-mapper.git"
+  },
+  "keywords": [
+    "object",
+    "keys",
+    "mapper"
+  ],
+  "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/key-mapper/issues"
+  },
+  "homepage": "https://github.com/therealklanni/key-mapper#readme"
+}
